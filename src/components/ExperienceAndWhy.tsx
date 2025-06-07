@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Discovery Yachts",
-  description: "Sail aboard Scenic Eclipse and Scenic Eclipse II—state-of-the-art ships offering helicopter and submarine excursions, fine dining, and all-veranda suites.",
+  title: "Discovery Yacht Experience",
+  description: "State-of-the-art yachts explore remote destinations with helicopters and submersibles onboard.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "All-Inclusive Indulgence",
-  description: "Every detail is taken care of—from unlimited excursions and personal butler service to gourmet dining and premium beverages.",
+  title: "All-Inclusive Ultra-Luxury",
+  description: "Everything from shore excursions to laundry and tipping is covered.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Immersive Exploration",
-  description: "With a discovery team of up to 20 experts, enjoy unforgettable zodiac landings, guided hikes, kayaking, and cultural encounters.",
+  title: "Wellness & Spa Focus",
+  description: "Onboard sanctuaries offer massages, yoga, and holistic health programs.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Cutting-Edge Comfort",
-  description: "Designed to Polar Class 6 standards, Scenic’s yachts feature advanced stabilizers, underwater lounges, and luxurious wellness spas.",
+  title: "Enrichment Programs",
+  description: "Led by scientists and historians to enhance cultural and natural understanding.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Scenic Ocean Cruises Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
